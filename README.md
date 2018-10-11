@@ -12,5 +12,6 @@
 -  **[BRIDGE tools live on Galaxy](https://usegalaxy.eu/)** :rocket::star:
    - In collaboration with [Björn Grüning](https://github.com/bgruening) and the [Galaxy computational chemistry team](https://github.com/galaxycomputationalchemistry), these tools are available on [Galaxy Europe](https://usegalaxy.eu/) under the Chemical Toolbox section.
 - **BRIDGE in a 'box'** :package:
+	- Docker ready to pull (`docker pull scientificomputing/bridge; docker run -d -p 8080:80 --rm scientificomputing/bridge
+`,  then browse to localhost:8080). [See here for more details on starting up a Docker.](https://github.com/bgruening/docker-galaxy-stable)
 	- A Docker file ready to build, [see this repository](https://github.com/scientificomputing/BRIDGE_MD_share).
-	- Docker ready to pull (`docker pull scientificomputing/bridge`)
